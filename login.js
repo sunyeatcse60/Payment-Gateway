@@ -31,4 +31,4 @@ document.getElementById('btn'),addEventListener('click', function(event){
     else{
         alert('Wrong Phone or pin number');
     }
-})
+});
