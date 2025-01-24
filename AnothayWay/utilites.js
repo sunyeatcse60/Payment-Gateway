@@ -16,3 +16,15 @@ function getTextFileValueById (id) {
 
     return textNumber;
 };
+
+
+
+
+
+
+function showSection (id){
+    document.getElementById('cashout-section').classList.add('hidden');
+
+
+    document.getElementById(id).classList.remove('hidden');
+}

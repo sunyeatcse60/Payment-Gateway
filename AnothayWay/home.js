@@ -14,6 +14,17 @@ document.getElementById('btn').addEventListener('click',function(event){
 
         document.getElementById('account-balance').innerText = newBalance;
 
+
+
+
+    // add a transection section
+    const p = document.createElement('p');
+    p.innerText = `Added: ${addMoney} tk. New balance: ${newBalance}`
+
+    document.getElementById('transection-container').appendChild(p);
+
+
+
     }
     else{
         alert('Fail try again');
